@@ -4,6 +4,7 @@
 * discord LenkaPetukhova#5714
 ## **Education**
 *Novosibirsk State Medical University Faculty of Social Work (2007-2012г.г.)*
+*Faculty of Social Work*
 ## **Objective**
 *Extremely motivated for career change goal*
 ## **Language Skills**
