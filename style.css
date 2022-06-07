@@ -1,0 +1,6 @@
+.cv {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: auto;
+    display: flex; 
+    border: black solid 1px; 
