@@ -1,1 +1,0 @@
-https://LenkaPetukhova.github.io/rsschool-cv/
