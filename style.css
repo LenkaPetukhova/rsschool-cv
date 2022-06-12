@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 .cv {
     max-width: 1024px;
     min-width: 320px;
@@ -9,6 +12,22 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+.header_container{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 50px;
+    width: 780px; 
+}
+.nav_list {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 50px;
+    width: 780px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
 @media (max-width: 1024px) {
     .cv{
         max-width: 970px; 
@@ -36,7 +55,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 2rem;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 .photo_contact {
@@ -64,6 +85,10 @@ body {
     box-sizing: border-box;
     display: block;
 
+}
+nav {
+    height: 50px;
+    width: 778px;
 }
 h1 {
     color: black;
