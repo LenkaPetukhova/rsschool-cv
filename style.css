@@ -17,7 +17,7 @@
     margin: 0 auto;
     height: 50px;
     width: 780px; 
-    background-color: bisque;
+    background-color: rgb(248, 236, 222);
 }
 .nav_list {
     max-width: 1440px;
@@ -118,9 +118,9 @@ body {
 }
 .photo_contact {
     padding: 1px;
-    width: 30%;
+    width: 40%;
     color: rgb(27, 26, 26);
-    background-color: antiquewhite;
+    background-color: rgb(253, 202, 139);
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
@@ -129,7 +129,7 @@ body {
     padding: 1px;
     width: 70%;
     color: black;
-    background-color: rgb(216, 246, 247);
+    background-color: bisque;
     border: black;
 }
     
@@ -138,7 +138,7 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     display: block;
-    background-color: bisque;
+    background-color: rgb(248, 236, 222);
     margin-right: 0px;
     margin-left: 0px
 }
@@ -182,7 +182,9 @@ p {
     border: pink solid 3px;
     width: 100%;
     float: right;
-    margin: 5px;   
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 80px;  
 }
 .avatar {
     width: 175px;
