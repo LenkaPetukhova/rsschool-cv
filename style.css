@@ -1,7 +1,165 @@
 .cv {
     max-width: 1024px;
     min-width: 320px;
+    margin: 0;
+    display: flex; 
+    border: black solid 0px; 
+}
+@media (max-width: 1024px) {
+    .cv{
+        max-width: 970px; 
+    }
+}
+@media (max-width: 992px) {
+    .cv{
+        max-width: 750px; 
+    }
+}
+@media (max-width: 767px) {
+    .cv{
+        max-width: none; 
+    }
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: block;
+    box-sizing: border-box;
+}
+.photo_contact {
+    padding: 1px;
+    width: 30%;
+    color: rgb(27, 26, 26);
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.my_content {
+    padding: 1px;
+    width: 70%;
+    color: black;
+    background-color: rgb(216, 246, 247);
+    border: black;
+}
+    
+
+.header {
+    max-width: 1024px;
+    position: relative;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+
+}
+h1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+}
+h5 {
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+.avatar_photo {
+    border-radius: 40%; 
+    border: pink solid 3px;
+    width: 100%;
+    float: right;
+    
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    display: flex;  
+}
+.Contacs {
+    max-width: 100%;
+    font-family: 'Times New Roman', sans-serif;
+    display: block; 
+    position: relative;
+    padding-top: 0px;
+    box-sizing: border-box;
+    
+}
+.content {
+    max-width: 80%;
     margin: auto;
     display: flex; 
-    border: black solid 1px; 
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+.Education {
+    box-sizing: border-box;
+    display: block;
+}
+.Skills {
+    box-sizing: border-box;
+    display: block;
+}
+.Language skills {
+    box-sizing: border-box;
+    display: block;
+}
+.Code {
+    box-sizing: border-box;
+    display: block;
+
+}
+.rs {
+margin-top: 40px;
+box-sizing: border-box;
+display: block;
+text-align: center;
+font-family: 'Times New Roman', sans-serif;
+font-weight: bold;
+}
+.footer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 65px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: block;
+}
+.githab {
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 40px;
 }
