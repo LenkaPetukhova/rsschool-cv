@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 .cv {
-    max-width: 1024px;
+    max-width: 1440px;
     min-width: 320px;
     margin: 0;
     display: flex; 
@@ -17,6 +17,7 @@
     margin: 0 auto;
     height: 50px;
     width: 780px; 
+    background-color: aqua;
 }
 .nav_list {
     max-width: 1440px;
@@ -24,9 +25,63 @@
     height: 50px;
     width: 780px; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.nav_contacts {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav_education {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: black; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+.nav_skills {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav_english {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav_code {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media (max-width: 1024px) {
     .cv{
@@ -49,11 +104,11 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    max-width: 1024px;
+    max-width: 1440px;
     min-width: 320px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    padding: 2rem;
+    padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -77,14 +132,14 @@ body {
     border: black;
 }
     
-
 .header {
-    max-width: 1024px;
-    position: relative;
-    margin-bottom: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
     box-sizing: border-box;
     display: block;
-
+    background-color: aqua;
+    margin-right: 0px;
+    margin-left: 0px
 }
 nav {
     height: 50px;
@@ -125,12 +180,19 @@ p {
     border: pink solid 3px;
     width: 100%;
     float: right;
-    
+    margin: 5px;   
 }
 .avatar {
     width: 150px;
     height: 150px;
-    display: flex;  
+    display: flex;
+    margin: 20px;
+    margin-top: -111px;  
+}
+.main_container {
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 .Contacs {
     max-width: 100%;
